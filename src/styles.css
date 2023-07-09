@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.fazloja {
+    color: #00afef;
+    ;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+mat-card {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.mat-mdc-snack-bar-container {
+    &.msg-success {
+        --mdc-snackbar-container-color: #28a745;
+        --mat-mdc-snack-bar-button-color: #fff;
+        --mdc-snackbar-supporting-text-color: #fff;
+    }
+}
+
+.mat-mdc-snack-bar-container {
+    &.msg-error {
+        --mdc-snackbar-container-color: #e35e6b;
+        --mat-mdc-snack-bar-button-color: #fff;
+        --mdc-snackbar-supporting-text-color: #fff;
+    }
+}
